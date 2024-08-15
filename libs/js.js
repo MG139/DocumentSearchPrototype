@@ -1849,7 +1849,7 @@ $(document).ready(function () {
 
                 $.ajax({
                     type: "GET",
-                    url: 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + geolocation.lat + ',' + geolocation.lng + '&key=AIzaSyBns8xRujdbvdjci1ahyRADrUI7BqP4AM0'
+                    url: 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + geolocation.lat + ',' + geolocation.lng + '&key='
                 })
                     .done(function (data) {
                         var town = $.grep(data.results[0].address_components, function (e) {
