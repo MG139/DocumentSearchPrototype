@@ -1,0 +1,91 @@
+.stockLevel {
+  font-size: 0.625rem;
+  font-weight: 700;  
+}
+
+.findMoreAvailabilityUrl {
+  color: #2356AA;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.PrintProductListUngroup .product-table-col {
+  padding: 1em 1em;
+}
+
+#print-table.product-table-col {
+  font-size: 0.8rem;
+}
+
+.SubCategoriesRow .rowMode .product-list .product .shopping .fa-star {
+  margin: -0.25rem;
+}
+
+.invisible {
+  display: none;
+}
+
+main#booker_orderT .colMode .product-list .product .shop .shopping .fa-star {
+  position: initial;
+}
+
+.list-img, .note-img {
+  display: none;
+}
+
+.SubCategoriesRow .rowMode .product-list .product .shopping .add-note, .modalComponents .delist-modal .rowMode .product-list .product .shopping .add-note {
+  padding-right: 0!important;
+}
+
+.rtsIcons > div {
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.add-note {
+  margin-left: .5rem;
+}
+
+.SubCategoriesRow .rowMode .product-list .product .shopping {
+  font-size: inherit;
+}
+
+@media (max-width: 767px) {
+  .stockLevelDiv {
+    max-width: 50%;
+    float: right;
+  }
+
+  .stockLevel {
+    margin-left: 0.5rem;
+  }
+
+  .SubCategoriesRow .rowMode .product-list .product .shopping .add-note {
+    align-items: center !important;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .stockLevelDiv {
+    max-width: 50%;
+    margin-left: 1.25rem;
+  }
+
+  .mobileAddNoteStock {
+    column-gap: 1rem;;
+  }
+
+  .SubCategoriesRow .rowMode .product-list .product .shopping .add-note {
+    align-items: center !important;
+    padding-right: 0;
+  }
+}
+
+  @media (max-width: 576px) {
+  .stockLevelDiv {
+    max-width: 100%;
+    margin-left: 1.563rem;
+  }
+}
+

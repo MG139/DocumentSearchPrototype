@@ -1,0 +1,1327 @@
+﻿/*myAllocations*/
+
+main#myAllocations {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    main#myAllocations .container {
+        margin-top: 15px;
+        max-width: 80%;
+    }
+
+    main#myAllocations .row_titulo {
+        background-color: #D4E2FF;
+    }
+
+    main#myAllocations .titulo {
+        color: #2356AA;
+        width: 100%;
+        margin-top: 8.5px;
+        height: 30px;
+        padding-left: 10px;
+        text-align: left;
+        float: right;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    main#myAllocations .btn {
+        background-color: #F24B71;
+        color: white;
+        border-radius: 0rem;
+        margin-top: 2.5px;
+    }
+
+    main#myAllocations .col-fechas {
+        max-width: 26%;
+    }
+
+    main#myAllocations .buyIn {
+        font-weight: bold;
+        padding-top: 40px;
+    }
+
+    main#myAllocations .negrita {
+        font-weight: bold;
+    }
+
+    main#myAllocations .col-btn {
+        text-align: right;
+    }
+
+    main#myAllocations .colorp {
+        color: #25417D;
+    }
+
+    main#myAllocations .nav {
+        padding: 0em !important;
+    }
+
+@media (max-width: 1500px) {
+    main#myAllocations .container {
+        max-width: 100% !important;
+    }
+
+    main#myAllocations .col-fechas {
+        max-width: 24%;
+    }
+}
+
+@media (max-width: 1400px) {
+    main#myAllocations .container {
+        max-width: 100% !important;
+    }
+
+    main#myAllocations .col-fechas {
+        max-width: 26%;
+    }
+}
+
+@media (max-width: 1300px) {
+    main#myAllocations .col-fechas {
+        max-width: 26%;
+    }
+}
+
+@media (max-width: 1100px) {
+    main#myAllocations .col-fechas {
+        max-width: 31%;
+    }
+
+    main#myAllocations .col-descripcion {
+        height: 7.6em;
+    }
+}
+
+@media (max-width: 1050px) {
+    main#myAllocations .col-fechas {
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 1024px) {
+    main#myAllocations .col-fechas {
+        max-width: 27%;
+    }
+}
+
+@media (max-width: 1000px) {
+    main#myAllocations .buyIn {
+        padding-top: 20px;
+    }
+
+    main#myAllocations .col-fechas {
+        max-width: 32%;
+    }
+
+    main#myAllocations .col-descripcion {
+        max-width: 68% !important;
+        height: 9em;
+    }
+}
+
+@media (max-width: 768px) {
+    html[data-useragent*='Edge/17.17134'] main#myAllocations .col-fechas {
+        font-size: 13px;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#myAllocations .col-descripcion {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    main#myAllocations .btn {
+        width: 100%;
+    }
+
+    main#myAllocations .vertical-menu {
+        width: 100%;
+    }
+
+    main#myAllocations .allocationsHeaderRow {
+        border-right: solid 5px #D4E2FF;
+        height: 375px;
+        border-left: solid 5px #D4E2FF;
+    }
+
+    main#myAllocations .col {
+        flex-basis: auto !important;
+    }
+
+    main#myAllocations .buyIn {
+        padding-top: 0px;
+    }
+
+    main#myAllocations .col-btn {
+        text-align: center;
+    }
+
+    main#myAllocations .nav {
+        flex-wrap: nowrap;
+    }
+
+    .vertical-menu {
+        width: -webkit-fill-available;
+        height: 3em;
+    }
+
+    main#myAllocations .tab-content {
+        width: 100%;
+    }
+
+    main#myAllocations .col-fechas {
+        max-width: 46%;
+        padding-top: 15px;
+    }
+
+    main#myAllocations .col-descripcion {
+        max-width: 100% !important;
+        height: 7.2em;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#myAllocations .col-fechas {
+        font-size: 15px;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#myAllocations .col-descripcion {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    main#myAllocations .col-fechas {
+        max-width: 100%;
+        padding-top: 15px;
+    }
+
+    main#myAllocations .vertical-menu {
+        width: 100%;
+    }
+
+    main#myAllocations .col-descripcion {
+        height: 7.5em;
+    }
+}
+
+@media (max-width: 414px) {
+    main#myAllocations .vertical-menu a {
+        padding: 19.5px;
+    }
+
+    main#myAllocations .col-descripcion {
+        height: 8.5em;
+        font-size: 14px
+    }
+}
+
+@media (max-width: 375px) {
+    main#myAllocations .col-descripcion {
+        height: 9em;
+        font-size: 13px
+    }
+
+    main#myAllocations .vertical-menu a {
+        padding: 22.5px;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#myAllocations .col-descripcion {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    main#myAllocations .vertical-menu a {
+        padding: 20.5px;
+    }
+}
+
+@media (max-width: 350px) {
+    main#myAllocations .titulo {
+        font-size: 19px;
+    }
+
+    main#myAllocations .vertical-menu a {
+        padding: 15.5px;
+    }
+}
+/*IE11 LONDIS_MyAllocationsPreOrderedWeekDeal.html*/
+html[data-useragent*='rv:11.0'] main#myAllocations .vertical-menu li {
+    flex: 1 1 auto;
+}
+
+    html[data-useragent*='rv:11.0'] main#myAllocations .vertical-menu li a {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+@media(min-width: 768px) {
+    main#myAllocations .allocationsHeaderRow {
+        border-right: solid 20px #D4E2FF;
+        max-width: 100%;
+        height: auto;
+    }
+
+    main#myAllocations .vertical-menu {
+        width: 10%;
+        background-color: #D4E2FF;
+    }
+
+    main#myAllocations .h6 {
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    main#myAllocations .headerTab {
+        max-width: 100%;
+        font-size: 14px;
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) {
+    .allocationsHeaderRow .tab-content {
+        width: 90%;
+        position: relative;
+    }
+}
+
+
+.my-allocation-londis .my-allocations-button {
+    height: 30px;
+}
+
+
+
+
+/*presells*/
+main#presell {
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+    main#presell .container {
+        margin-top: 15px;
+    }
+
+    main#presell .row_titulo {
+        background-color: #D4E2FF;
+        max-width: 80% !important;
+    }
+
+    main#presell .titulo {
+        color: #007FFF;
+        width: 100%;
+        margin-top: 8.5px;
+        height: 30px;
+        padding-left: 10px;
+        text-align: left;
+        float: right;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    main#presell .fila {
+        max-width: 80% !important;
+        border-right: solid 1px #D4E2FF;
+    }
+
+    main#presell .col-diaFestivos {
+        background-color: #D4E2FF;
+        max-width: 50%;
+    }
+
+    main#presell .col-seleccionados {
+        background-color: #007FFF;
+        margin-top: 1px;
+    }
+
+    main#presell .seleccionados {
+        margin-top: 5px;
+        color: white;
+        width: 100%;
+        margin-top: 10px;
+        height: 30px;
+        padding-left: 10px;
+        text-align: left;
+        float: right;
+        font-weight: bold;
+    }
+
+    main#presell .diasFestivos {
+        color: black;
+        width: 100%;
+        margin-top: 8.5px;
+        height: 30px;
+        padding-left: 10px;
+        text-align: left;
+        float: right;
+        font-weight: bold;
+    }
+
+    main#presell .btn {
+        background-color: #F24B71;
+        color: white;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    main#presell .col-btn {
+        max-width: 20%;
+    }
+
+    main#presell .col-p {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+@media (max-width: 1200px) {
+    main#presell .container {
+        max-width: 100% !important;
+    }
+
+    main#presell .col-btn {
+        max-width: 23%;
+    }
+
+    main#presell .col-p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    main#presell .container {
+        max-width: 100% !important;
+    }
+
+    main#presell .col-btn {
+        max-width: 30%;
+    }
+
+    main#presell .fila {
+        max-width: 100% !important;
+    }
+
+    main#presell .row_titulo {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    main#presell {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+        main#presell .col {
+            flex-basis: 0 !important;
+        }
+}
+
+@media (max-width: 768px) {
+    main#presell .container {
+        max-width: 100% !important;
+    }
+
+    main#presell .fila {
+        max-width: 100% !important;
+        border-left: solid 1px #D4E2FF;
+    }
+
+    main#presell .row_titulo {
+        max-width: 100% !important;
+    }
+
+    main#presell .col-diaFestivos {
+        max-width: 100%;
+        flex-basis: auto !important;
+    }
+
+    main#presell .col-seleccionados {
+        max-width: 100%;
+        flex-basis: auto !important;
+    }
+}
+
+@media (max-width: 576px) {
+    main#presell .col-btn {
+        max-width: 40%;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#presell .col-p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    main#presell .col-btn {
+        max-width: 100%;
+        flex-basis: auto !important;
+    }
+}
+
+@media (max-width: 375px) {
+    main#presell .seleccionados {
+        font-size: 13px;
+    }
+
+    main#presell .diasFestivos {
+        font-size: 13px;
+    }
+
+    main#presell .col-p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    html[data-useragent*='Edge/17.17134'] main#presell .col-p {
+        font-size: 12px;
+    }
+}
+/*londis_presell_button*/
+/*londis_presell_button y londis_presell_closed*/
+
+main#presell_closed .desktop-view .prices-and-taxes .wsp,
+main#presell_button .desktop-view .prices-and-taxes .wsp {
+    width: 50% !important;
+}
+
+main#presell_closed .desktop-view .product-quantity-date-header,
+main#presell_closed .desktop-view .product-details,
+main#presell_closed .desktop-view .product-quantities,
+main#presell_button .desktop-view .product-quantity-date-header,
+main#presell_button .desktop-view .product-details,
+main#presell_button .desktop-view .product-quantities {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+main#presell_closed .mobile-view .product-quantity-date-header,
+main#presell_closed .desktop-view .product-quantity-date-header,
+main#presell_button .mobile-view .product-quantity-date-header,
+main#presell_button .desktop-view .product-quantity-date-header {
+    font-size: 14px;
+}
+
+    main#presell_closed .mobile-view .product-quantity-date-header p,
+    main#presell_closed .desktop-view .product-quantity-date-header p,
+    main#presell_button .mobile-view .product-quantity-date-header p,
+    main#presell_button .desktop-view .product-quantity-date-header p {
+        text-align: center;
+        font-weight: bold;
+    }
+
+main#presell_closed .mobile-view .product-quantity-date input,
+main#presell_closed .desktop-view .product-quantity-date input,
+main#presell_button .mobile-view .product-quantity-date input,
+main#presell_button .desktop-view .product-quantity-date input {
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+    main#presell_closed .mobile-view .product-quantity-date input:disabled,
+    main#presell_closed .desktop-view .product-quantity-date input:disabled,
+    main#presell_button .mobile-view .product-quantity-date input:disabled,
+    main#presell_button .desktop-view .product-quantity-date input:disabled {
+        background-color: #FAFAFA;
+        border: 1px solid #EFEFEF;
+        color: #d3d3d3;
+    }
+
+main#presell_closed .desktop-view .product,
+main#presell_button .desktop-view .product {
+    border: 1px solid #ECECEC;
+    box-shadow: none;
+}
+
+main#presell_closed .desktop-view .product-quantities-row,
+main#presell_button .desktop-view .product-quantities-row {
+    height: 100%;
+    align-items: center;
+}
+
+main#presell_closed .mobile-view .codPro,
+main#presell_closed .desktop-view .codPro,
+main#presell_button .mobile-view .codPro,
+main#presell_button .desktop-view .codPro {
+    align-self: center;
+}
+
+main#presell_closed .mobile-view .product-image-mobile,
+main#presell_closed .mobile-view .product-image,
+main#presell_closed .desktop-view .product-image,
+main#presell_button .mobile-view .product-image-mobile,
+main#presell_button .mobile-view .product-image,
+main#presell_button .desktop-view .product-image {
+    height: 6em;
+    max-width: 6em;
+    object-fit: cover;
+}
+
+main#presell_closed .mobile-view .case-image,
+main#presell_closed .desktop-view .case-image,
+main#presell_button .mobile-view .case-image,
+main#presell_button .desktop-view .case-image {
+    flex-direction: column;
+    width: 5em;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+    main#presell_closed .mobile-view .case-image > span,
+    main#presell_closed .desktop-view .case-image > span,
+    main#presell_button .mobile-view .case-image > span,
+    main#presell_button .desktop-view .case-image > span {
+        display: block;
+    }
+
+main#presell_closed .desktop-view .prices-and-taxes,
+main#presell_button .desktop-view .prices-and-taxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+    main#presell_closed .mobile-view .prices-and-taxes .price-row,
+    main#presell_closed .desktop-view .prices-and-taxes .price-row
+    main#presell_button .mobile-view .prices-and-taxes .price-row,
+    main#presell_button .desktop-view .prices-and-taxes .price-row {
+        color: #909090;
+    }
+
+    main#presell_closed .desktop-view .prices-and-taxes .price .font-weight-bold,
+    main#presell_button .desktop-view .prices-and-taxes .price .font-weight-bold {
+        font-weight: 900;
+    }
+
+    main#presell_closed .desktop-view .totals-values,
+    main#presell_closed .mobile-view .super-totals,
+    main#presell_closed .desktop-view .prices-and-taxes .price .col-6,
+    main#presell_closed .desktop-view .prices-and-taxes .price-row .col-6,
+    main#presell_button .desktop-view .totals-values,
+    main#presell_button .mobile-view .super-totals,
+    main#presell_button .desktop-view .prices-and-taxes .price .col-6,
+    main#presell_button .desktop-view .prices-and-taxes .price-row .col-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+main#presell_closed .desktop-view .product-quantity-date,
+main#presell_button .desktop-view .product-quantity-date {
+    height: 100%;
+    align-items: center;
+    border-left: 1px solid #DDDDDD;
+}
+
+main#presell_closed .mobile-view .product .back-grey,
+main#presell_closed .desktop-view .product .back-grey,
+main#presell_button .mobile-view .product .back-grey,
+main#presell_button .desktop-view .product .back-grey {
+    background-color: #EBEBEB;
+    border-left: 1px solid #DDDDDD;
+}
+
+main#presell_closed .bigger,
+main#presell_button .bigger {
+    font-size: 20px;
+}
+
+main#presell_closed .mobile-view .prices-and-taxes,
+main#presell_button .mobile-view .prices-and-taxes {
+    width: 100%;
+}
+
+main#presell_closed .mobile-view .card .card-header i,
+main#presell_button .mobile-view .card .card-header i {
+    padding-right: 0.25em;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+main#presell_closed .mobile-view .product-quantity-date-header,
+main#presell_button .mobile-view .product-quantity-date-header {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+main#presell_closed .mobile-view .accordion .card .card-header,
+main#presell_button .mobile-view .accordion .card .card-header {
+    cursor: pointer;
+    padding: .75rem;
+}
+
+main#presell_closed .mobile-view .card,
+main#presell_button .mobile-view .card {
+    border: 1px solid #ECECEC !important;
+    box-shadow: none;
+}
+
+    main#presell_closed .mobile-view .card .card-header,
+    main#presell_button .mobile-view .card .card-header {
+        border: 0 !important;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    main#presell_closed .mobile-view .card .card-header,
+    main#presell_button .mobile-view .card .card-header {
+        padding-top: 0em;
+        padding-bottom: 0em;
+        border-bottom: 1px solid #EFEFEF !important;
+    }
+
+        main#presell_closed .mobile-view .card .card-header i,
+        main#presell_button .mobile-view .card .card-header i {
+            -webkit-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        main#presell_closed .mobile-view .card .card-header.collapsed i,
+        main#presell_button .mobile-view .card .card-header.collapsed i {
+            transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);
+        }
+
+main#presell_closed,
+main#presell_button {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+    main#presell_closed .pagination,
+    main#presell_button .pagination {
+        float: right;
+        padding-right: 0 !important;
+    }
+
+        main#presell_closed .pagination .page-item .page-link,
+        main#presell_button .pagination .page-item .page-link {
+            border: 1px solid #E1E1E1;
+            color: #2356AA;
+            margin-left: 0.15em;
+            margin-right: 0.15em;
+        }
+
+        main#presell_closed .pagination .page-item.active .page-link,
+        main#presell_button .pagination .page-item.active .page-link {
+            border: 1px solid #91AAD4;
+            color: black;
+            background-color: white;
+        }
+
+        main#presell_closed .pagination .page-item.previous .page-link,
+        main#presell_closed .pagination .page-item.next .page-link,
+        main#presell_button .pagination .page-item.previous .page-link,
+        main#presell_button .pagination .page-item.next .page-link {
+            background-color: #2356AA;
+            border-color: #2356AA;
+            color: white;
+        }
+
+        main#presell_closed .pagination .page-item.previous.disabled .page-link,
+        main#presell_closed .pagination .page-item.next.disabled .page-link,
+        main#presell_button .pagination .page-item.previous.disabled .page-link,
+        main#presell_button .pagination .page-item.next.disabled .page-link {
+            background-color: #E6E6E6;
+            color: white;
+            border-color: #D3D3D3;
+        }
+
+    main#presell_closed .mobile-view,
+    main#presell_button .mobile-view {
+        display: none;
+    }
+
+        main#presell_closed .mobile-view .accordion .card .card-header,
+        main#presell_button .mobile-view .accordion .card .card-header {
+            cursor: pointer;
+        }
+
+    main#presell_closed h2,
+    main#presell_button h2 {
+        color: #062F6E;
+        font-size: 1.75rem;
+    }
+
+    main#presell_closed .sort-by-desktop,
+    main#presell_button .sort-by-desktop {
+        display: flex;
+        align-items: center;
+    }
+
+    main#presell_closed .form-custom-select,
+    main#presell_button .form-custom-select {
+        width: 14em;
+        border: 1px solid #2356AA;
+        border-radius: .25rem;
+        height: unset;
+    }
+
+        main#presell_closed .form-custom-select select,
+        main#presell_button .form-custom-select select {
+            color: #2356AA;
+            padding: .375rem .75rem;
+            height: unset;
+        }
+
+        main#presell_closed .form-custom-select:after,
+        main#presell_button .form-custom-select:after {
+            color: #2356AA;
+            padding-top: 8px;
+        }
+
+    main#presell_closed .filters,
+    main#presell_button .filters {
+        padding-bottom: 1em;
+    }
+
+    main#presell_closed .mobile-view .product .product-quantity-date,
+    main#presell_button .mobile-view .product .product-quantity-date {
+        height: 4em;
+        align-items: center;
+        border: 1px solid #DDDDDD;
+    }
+
+    main#presell_closed .desktop-view .product .product-number,
+    main#presell_button .desktop-view .product .product-number {
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    main#presell_closed .mobile-view .product .product-details .product-name-priceMarked,
+    main#presell_closed .desktop-view .product .product-details .product-name-priceMarked,
+    main#presell_button .mobile-view .product .product-details .product-name-priceMarked,
+    main#presell_button .desktop-view .product .product-details .product-name-priceMarked {
+        height: 6em;
+        margin-bottom: 0.25em;
+    }
+
+    main#presell_closed .mobile-view .product .product-details .discount,
+    main#presell_closed .desktop-view .product .product-details .discount,
+    main#presell_button .mobile-view .product .product-details .discount,
+    main#presell_button .desktop-view .product .product-details .discount {
+        height: 1.5em;
+        font-size: 14px;
+    }
+
+    main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon,
+    main#presell_closed .desktop-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .mobile-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .desktop-view .product-quantity-date .plus-minus-icon {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        background-color: #2356AA;
+        color: white;
+        position: relative;
+        border-radius: 100px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon i,
+        main#presell_closed .desktop-view .product-quantity-date .plus-minus-icon i,
+        main#presell_button .mobile-view .product-quantity-date .plus-minus-icon i,
+        main#presell_button .desktop-view .product-quantity-date .plus-minus-icon i {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+    main#presell_closed .mobile-view .productImageCol,
+    main#presell_button .mobile-view .productImageCol {
+        align-items: center;
+    }
+
+    main#presell_closed .mobile-view .totals,
+    main#presell_button .mobile-view .totals {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+@media(max-width: 1600px) {
+    main#presell_closed .desktop-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .desktop-view .product-quantity-date .plus-minus-icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
+
+@media(max-width:1200px) {
+    main#presell_closed .desktop-view .prices-and-taxes,
+    main#presell_button .desktop-view .prices-and-taxes {
+        margin-right: 0.5em;
+    }
+
+    main#presell_closed .desktop-view .codPro,
+    main#presell_button .desktop-view .codPro {
+        margin-left: -15px;
+    }
+
+    main#presell_closed .desktop-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .desktop-view .product-quantity-date .plus-minus-icon {
+        width: 1.0em;
+        height: 1.0em;
+    }
+
+        main#presell_closed .desktop-view .product-quantity-date .plus-minus-icon i,
+        main#presell_button .desktop-view .product-quantity-date .plus-minus-icon i {
+            font-size: 0.5rem;
+        }
+}
+
+@media(max-width: 1150px) {
+    main#presell_closed .mobile-view,
+    main#presell_button .mobile-view {
+        display: block !important;
+    }
+
+    main#presell_closed .desktop-view,
+    main#presell_button .desktop-view {
+        display: none !important;
+    }
+}
+
+@media(max-width:1024px) {
+    main#presell_closed .mobile-view .product .textProCol,
+    main#presell_button .mobile-view .product .textProCol {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    main#presell_closed .mobile-view .product .codProd-col,
+    main#presell_button .mobile-view .product .codProd-col {
+        display: none !important;
+    }
+
+    main#presell_closed .mobile-view .product .product-image-chevron,
+    main#presell_button .mobile-view .product .product-image-chevron {
+        display: flex !important;
+    }
+
+    main#presell_closed .mobile-view .product .product-image,
+    main#presell_button .mobile-view .product .product-image {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    main#presell_closed,
+    main#presell_button {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media(max-width:850px) {
+    main#presell_closed .mobile-view .codPro,
+    main#presell_button .mobile-view .codPro {
+        width: 100%;
+    }
+
+    main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .mobile-view .product-quantity-date .plus-minus-icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
+
+@media(max-width:768px) {
+    main#presell_closed .mobile-view .card .card-header i,
+    main#presell_button .mobile-view .card .card-header i {
+        padding-right: 0.15em;
+    }
+}
+
+@media(max-width:767px) {
+    main#presell_closed .totals .totals-texts,
+    main#presell_closed .totals .totals-values,
+    main#presell_closed .mobile-view .product .product-quantities,
+    main#presell_button .totals .totals-texts,
+    main#presell_button .totals .totals-values,
+    main#presell_button .mobile-view .product .product-quantities {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    main#presell_closed .mobile-view .product .caseImageCol,
+    main#presell_button .mobile-view .product .caseImageCol {
+        display: none !important;
+    }
+
+    main#presell_closed .mobile-view .product .textProCol,
+    main#presell_button .mobile-view .product .textProCol {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        padding-left: 0.5em !important;
+        padding-right: 0.25em !important;
+    }
+
+    main#presell_closed .mobile-view .product-image,
+    main#presell_button .mobile-view .product-image {
+        height: 6em;
+        max-width: 6em;
+        align-self: center;
+    }
+
+    main#presell_closed .mobile-view .case-weight-mobile,
+    main#presell_button .mobile-view .case-weight-mobile {
+        display: block !important;
+        text-align: center;
+        padding-left: 16px;
+    }
+
+    main#presell_closed,
+    main#presell_button {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+        main#presell_closed #buttons-bottom,
+        main#presell_button #buttons-bottom {
+            flex-direction: column-reverse;
+            padding-left: 0;
+        }
+
+            main#presell_closed #buttons-bottom .green-btn,
+            main#presell_button #buttons-bottom .green-btn {
+                margin-left: 0 !important;
+                margin-bottom: 1em;
+            }
+
+        main#presell_closed .botUpdate,
+        main#presell_button .botUpdate {
+            margin-top: 0.5em;
+            flex-direction: column-reverse;
+        }
+
+            main#presell_closed .botUpdate .blue-btn,
+            main#presell_button .botUpdate .blue-btn {
+                margin-right: 0 !important;
+                margin-top: 1em;
+            }
+
+        main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon,
+        main#presell_button .mobile-view .product-quantity-date .plus-minus-icon {
+            display: none;
+        }
+}
+
+@media(max-width: 675px) {
+    main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon,
+    main#presell_button .mobile-view .product-quantity-date .plus-minus-icon {
+        width: 1.0em;
+        height: 1.0em;
+    }
+
+        main#presell_closed .mobile-view .product-quantity-date .plus-minus-icon i,
+        main#presell_button .mobile-view .product-quantity-date .plus-minus-icon i {
+            font-size: 0.5rem;
+        }
+
+    main#presell_closed .mobile-view .product .textProCol,
+    main#presell_button .mobile-view .product .textProCol {
+        flex: 0 0 62%;
+        max-width: 62%;
+    }
+
+    main#presell_closed .mobile-view .product .prices-and-taxes-col,
+    main#presell_button .mobile-view .product .prices-and-taxes-col {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    main#presell_closed .mobile-view .product-image-mobile,
+    main#presell_button .mobile-view .product-image-mobile {
+        height: 5em;
+        max-width: 5em;
+    }
+}
+
+@media(max-width:640px) {
+    html[data-useragent*='Edge/17.17134'] main#presell_button .filters {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:620px) {
+    main#presell_closed .form-custom-select,
+    main#presell_button .form-custom-select {
+        width: 12em;
+    }
+}
+
+@media(max-width:575px) {
+    main#presell_closed .mobile-view .product-image,
+    main#presell_button .mobile-view .product-image {
+        height: 4em;
+        max-width: 4em;
+    }
+
+    main#presell_closed .form-custom-select:after,
+    main#presell_button .form-custom-select:after {
+        padding-top: 5px;
+    }
+}
+
+@media(max-width:568px) {
+    html[data-useragent*='Edge/17.17134'] main#presell_button .mobile-view .prices-and-taxes {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:550px) {
+    main#presell_closed,
+    main#presell_button {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+        main#presell_closed .bigger,
+        main#presell_button .bigger {
+            font-size: 18px;
+        }
+
+        main#presell_closed p,
+        main#presell_button p {
+            font-size: 14px;
+        }
+
+        main#presell_closed .mobile-view .totals,
+        main#presell_button .mobile-view .totals {
+            padding-left: 0.25rem;
+            padding-right: 0.25rem;
+        }
+
+        main#presell_closed .card-body,
+        main#presell_button .card-body {
+            padding: 1.25rem 0.25rem;
+        }
+
+        main#presell_closed .sort-by-desktop,
+        main#presell_button .sort-by-desktop {
+            width: 100%;
+            justify-content: flex-end;
+            padding-bottom: 1em;
+        }
+
+        main#presell_closed .mobile-view .product .textProCol,
+        main#presell_button .mobile-view .product .textProCol {
+            flex: 0 0 58%;
+            max-width: 58%;
+        }
+
+        main#presell_closed .mobile-view .product .prices-and-taxes-col,
+        main#presell_button .mobile-view .product .prices-and-taxes-col {
+            flex: 0 0 24%;
+            max-width: 24%;
+        }
+}
+
+@media(max-width:500px) {
+    main#presell_closed .h2,
+    main#presell_button .h2 {
+        font-size: 1.7rem !important;
+    }
+
+    main#presell_closed .bigger,
+    main#presell_button .bigger {
+        font-size: 16px;
+    }
+
+    main#presell_closed .mobile-view .product-quantity-date input,
+    main#presell_closed p,
+    main#presell_button .mobile-view .product-quantity-date input,
+    main#presell_button p {
+        font-size: 12px;
+    }
+
+    main#presell_closed .form-custom-select select,
+    main#presell_button .form-custom-select select {
+        padding: 0em 2em 0em 0.25em;
+    }
+
+    main#presell_closed .card-header,
+    main#presell_button .card-header {
+        padding: 0rem 0.75rem 0rem 0rem;
+    }
+
+    main#presell_closed .form-custom-select select,
+    main#presell_closed span,
+    main#presell_closed .mobile-view .codPro,
+    main#presell_button .form-custom-select select,
+    main#presell_button span,
+    main#presell_button .mobile-view .codPro {
+        font-size: 14px;
+    }
+
+    main#presell_closed .mobile-view .product-image-mobile,
+    main#presell_button .mobile-view .product-image-mobile {
+        height: 4em;
+        max-width: 4em;
+    }
+}
+
+@media(max-width:475px) {
+    main#presell_closed .mobile-view .product-image,
+    main#presell_button .mobile-view .product-image {
+        height: 3em;
+        max-width: 3em;
+    }
+}
+
+@media(max-width:450px) {
+    main#presell_closed .card-body,
+    main#presell_button .card-body {
+        padding: 1.25rem 0rem;
+    }
+}
+
+@media(max-width:414px) {
+    main#presell_closed .mobile-view .product-image-mobile,
+    main#presell_closed .mobile-view .product-image,
+    main#presell_button .mobile-view .product-image-mobile,
+    main#presell_button .mobile-view .product-image {
+        height: 2.5em;
+        max-width: 2.5em;
+    }
+
+    html[data-useragent*='Edge/17.17134'] main#presell_button span {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 400px) {
+    main#presell_closed .mobile-view .product .textProCol,
+    main#presell_button .mobile-view .product .textProCol {
+        flex: 0 0 54%;
+        max-width: 54%;
+    }
+
+    main#presell_closed .mobile-view .product .prices-and-taxes-col,
+    main#presell_button .mobile-view .product .prices-and-taxes-col {
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+
+    main#presell_closed h2,
+    main#presell_button h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 375px) {
+    main#presell_closed .mobile-view .super-totals .totals-values-row .col-11,
+    main#presell_button .mobile-view .super-totals .totals-values-row .col-11 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+        padding-right: 0;
+    }
+
+    main#presell_closed .mobile-view .super-totals .totals-values-row .col-1,
+    main#presell_button .mobile-view .super-totals .totals-values-row .col-1 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 330px) {
+    main#presell_closed,
+    main#presell_button {
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+
+        main#presell_closed .mobile-view .accordion .card .card-header,
+        main#presell_button .mobile-view .accordion .card .card-header {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+
+        main#presell_closed .mobile-view .product .prices-and-taxes-col,
+        main#presell_button .mobile-view .product .prices-and-taxes-col {
+            flex: 0 0 30%;
+            max-width: 30%;
+        }
+
+        main#presell_closed .mobile-view .product .textProCol,
+        main#presell_button .mobile-view .product .textProCol {
+            flex: 0 0 52%;
+            max-width: 52%;
+        }
+}
+/*IE11 LONDIS_PreSell_Button_Click.html*/
+html[data-useragent*='rv:11.0'] main#presell_closed .product-quantities,
+html[data-useragent*='rv:11.0'] main#presell_button .product-quantities {
+    flex: 0 0 auto;
+}
+
+html[data-useragent*='rv:11.0'] main#presell_closed .totals-texts,
+html[data-useragent*='rv:11.0'] main#presell_button .totals-texts {
+    flex: 0 0 auto;
+}
+
+html[data-useragent*='rv:11.0'] main#presell_closed .totals-values,
+html[data-useragent*='rv:11.0'] main#presell_button .totals-values {
+    flex: 0 0 auto;
+}
+
+@media(max-width: 823px) {
+    html[data-useragent*='rv:11.0'] main#presell_closed .totals-values-row,
+    html[data-useragent*='rv:11.0'] main#presell_button .totals-values-row {
+        margin-right: 0.5em !important;
+    }
+}
+
+@media(max-width: 823px) {
+    html[data-useragent*='rv:11.0'] main#presell_closed .totals .totals-texts,
+    html[data-useragent*='rv:11.0'] main#presell_closed .totals .totals-values,
+    html[data-useragent*='rv:11.0'] main#presell_closed .mobile-view .product .product-quantities,
+    html[data-useragent*='rv:11.0'] main#presell_button .totals .totals-texts,
+    html[data-useragent*='rv:11.0'] main#presell_button .totals .totals-values,
+    html[data-useragent*='rv:11.0'] main#presell_button .mobile-view .product .product-quantities {
+        flex: 0 0 auto;
+    }
+}
+
+@media(max-width: 568px) {
+    html[data-useragent*='rv:11.0'] main#presell_closed .filters .font-weight-bold,
+    html[data-useragent*='rv:11.0'] main#presell_button .filters .font-weight-bold {
+        font-size: 14px !important;
+    }
+}
+
+@media(max-width: 320px) {
+    html[data-useragent*='rv:11.0'] main#presell_closed .form-custom-select select,
+    html[data-useragent*='rv:11.0'] main#presell_closed span,
+    html[data-useragent*='rv:11.0'] main#presell_closed .mobile-view .codPro,
+    html[data-useragent*='rv:11.0'] main#presell_button .form-custom-select select,
+    html[data-useragent*='rv:11.0'] main#presell_button span,
+    html[data-useragent*='rv:11.0'] main#presell_button .mobile-view .codPro {
+        font-size: 13px;
+    }
+}
