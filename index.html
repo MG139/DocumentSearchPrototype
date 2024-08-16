@@ -31,8 +31,6 @@ font-family: "Roboto", sans-serif;
   
   .suggestion-keywords {
 	border: 2px solid #2356AA !important;
-	border-top-left-radius: 5px !important;
-	border-bottom-left-radius: 5px !important;
 	color: #777 !important;
   }
   
@@ -42,7 +40,9 @@ font-family: "Roboto", sans-serif;
   
   .SearchDropdownParent {
 	border:2px solid #2356AA; 
-	border-left:0; 
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	border-right:0; 
 	padding-left:1em; 
 	padding-right: 1em; 
 	display:inline-block; 
@@ -148,13 +148,13 @@ font-family: "Roboto", sans-serif;
             </div>
                     <form action="https://kshumbooker.github.io/products/search" class="input-group col" method="get" autocomplete="off">
                         <div id="search-input" class="input-group">
-                            <input name="keywords" type="text" class="suggestion-keywords form-control" placeholder="Search by Product code, description or barcode">
 							<div class="SearchDropdownParent">
 								<select name="index" class="SearchDropdown">
 									<option value="products" default>Products</option>
 									<option value="documents">Documents</option>
 								</select>
 							</div>
+                            <input name="keywords" type="text" class="suggestion-keywords form-control" placeholder="Search by Product code, description or barcode">
                             <div class="suggestions-result">
                             </div>
                             <div class="input-group-append search-button">
@@ -394,6 +394,12 @@ font-family: "Roboto", sans-serif;
             </div>
                 <form action="https://kshumbooker.github.io/products/search" class="flex-grow-1" method="get" autocomplete="off">
                     <div id="search-input" class="input-group">
+							<div class="SearchDropdownParent">
+								<select name="index" class="SearchDropdown">
+									<option value="products" default>Products</option>
+									<option value="documents">Documents</option>
+								</select>
+							</div>
                         <input name="keywords" type="text" class="suggestion-keywords form-control text-truncate" placeholder="Search by Product code, description or barcode">
                         <div class="suggestions-result">
                         </div>
