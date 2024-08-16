@@ -78,9 +78,25 @@ font-family: "Roboto", sans-serif;
 	border-top-left-radius: 0 !important;
 	border-bottom-left-radius: 0 !important;
   }
-  
-  
   </style>
+  
+  <script>
+	function placeholderChange () {
+		var sdd = document.getElementById("SearchDropdown");
+		
+		// Echo...
+		console.log(sdd.value);
+		
+		// Handle...
+		if (sdd.value == "products") {
+			document.getElementsByName("keywords")[0].placeholder = "Search by product code, description, or barcode";
+			document.getElementsByName("keywords")[1].placeholder = "Search by product code, description, or barcode";
+		} else {
+			document.getElementsByName("keywords")[0].placeholder = "Search for content using keywords or a phrase";
+			document.getElementsByName("keywords")[1].placeholder = "Search for content using keywords or a phrase";
+		}
+	}
+  </script>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -153,13 +169,13 @@ font-family: "Roboto", sans-serif;
             </div>
                     <form action="https://kshumbooker.github.io/products/search" class="input-group col" method="get" autocomplete="off">
                         <div id="search-input" class="input-group">
-							<div class="SearchDropdownParent">
-								<select name="index" class="SearchDropdown">
+							<div class="SearchDropdownParent" onChange="javascript:placeholderChange();">
+								<select name="index" id="SearchDropdown" class="SearchDropdown">
 									<option value="products" default>Products</option>
 									<option value="documents">Documents</option>
 								</select>
 							</div>
-                            <input name="keywords" type="text" class="suggestion-keywords form-control" placeholder="Search by Product code, description or barcode">
+                            <input name="keywords" type="text" class="suggestion-keywords form-control" placeholder="Search by product code, description, or barcode">
                             <div class="suggestions-result">
                             </div>
                             <div class="input-group-append search-button">
@@ -400,12 +416,12 @@ font-family: "Roboto", sans-serif;
                 <form action="https://kshumbooker.github.io/products/search" class="flex-grow-1" method="get" autocomplete="off">
                     <div id="search-input" class="input-group">
 							<div class="SearchDropdownParent">
-								<select name="index" class="SearchDropdown">
+								<select name="index" class="SearchDropdown" onChange="javascript:placeholderChange();">
 									<option value="products" default>Products</option>
 									<option value="documents">Documents</option>
 								</select>
 							</div>
-                        <input name="keywords" type="text" class="suggestion-keywords form-control text-truncate" placeholder="Search by Product code, description or barcode">
+                        <input name="keywords" type="text" class="suggestion-keywords form-control text-truncate" placeholder="Search by product code, description, or barcode">
                         <div class="suggestions-result">
                         </div>
 
